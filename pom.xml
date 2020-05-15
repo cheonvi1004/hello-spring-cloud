@@ -16,6 +16,39 @@
 		<version>1.5.3.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	
+	<repositories>
+	     <repository>
+		 <id>public</id>
+		 <url>http://183.111.127.218:8081/repository/maven-public/</url>
+		 <releases>
+		     <enabled>true</enabled>
+		 </releases>
+		 <snapshots>
+		     <enabled>true</enabled>
+		 </snapshots>
+	     </repository>
+		<repository>
+		 <id>public</id>
+		 <url>http://183.111.127.218:8081/repository/maven-public/</url>
+		 <releases>
+		     <enabled>true</enabled>
+		 </releases>
+		 <snapshots>
+		     <enabled>true</enabled>
+		 </snapshots>
+	     </repository>
+		<repository>
+		 <id>public</id>
+		 <url>http://183.111.127.218:8081/repository/maven-snapshots/</url>
+		 <releases>
+		     <enabled>true</enabled>
+		 </releases>
+		 <snapshots>
+		     <enabled>true</enabled>
+		 </snapshots>
+	     </repository>
+	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -99,17 +132,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-	 <repositories>
-     <repository>
-         <id>public</id>
-         <url>http://183.111.127.218:8081/repository/maven-public/</url>
-         <releases>
-             <enabled>true</enabled>
-         </releases>
-         <snapshots>
-             <enabled>true</enabled>
-         </snapshots>
-     </repository>
-</repositories>
-
+	 
 </project>
